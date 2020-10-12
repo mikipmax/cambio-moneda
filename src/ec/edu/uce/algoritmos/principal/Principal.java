@@ -1,16 +1,12 @@
 package ec.edu.uce.algoritmos.principal;
 
-import ec.edu.uce.algoritmos.clases.*;
+import ec.edu.uce.algoritmos.clases.Presentacion;
 
 /**
+ * PROYECTO: Programa de simulación de un sistema de máquina de cambio de
+ * monedas
  *
- * PROYECTO: Dada una clase Persona y sus atributos realizamos tanto el
- * ingreso,editar,buscar e imprimir los elementos que se almacena en un arreglo
- * para proceder a buscar aplicando busqueda binaria, interpolacion y fibonacci.
- *
- * Clase principal, que da inicio a la aplicaciòn con el Logging
- *
- * FECHA:12-DIC-2016
+ * Clase Principal con el método main FECHA:10-FEB-2017
  *
  * @author: 1725149502 David Morales 1312960444 Michael Ponce Cevallos
  * 1721468021 Estefania Portilla
@@ -19,9 +15,7 @@ import ec.edu.uce.algoritmos.clases.*;
 public class Principal {
 
     public static void main(String[] args) {
-        Inicio i = new Inicio();
-        i.setVisible(true);
-       
-    }
+        new Presentacion().setVisible(true);
 
+    }
 }
